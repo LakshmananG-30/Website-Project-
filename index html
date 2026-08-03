@@ -1,0 +1,832 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRL Educational Consultancy | Your Gateway to a Bright Future</title>
+  <meta name="description" content="PRL Educational Consultancy helps students and parents get admission into top MBBS, Engineering, Pharmacy, Nursing, Law and Management colleges across India. Free counselling, scholarship assistance and 100% admission guidance.">
+  <meta name="keywords" content="educational consultancy, MBBS admission, engineering admission, college counselling, admission guidance India, career counselling, scholarship assistance, study abroad">
+  <meta name="author" content="PRL Educational Consultancy">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="PRL Educational Consultancy | Your Gateway to a Bright Future">
+  <meta property="og:description" content="Free admission counselling for MBBS, Engineering, Pharmacy, Nursing, Law, Management and more. 300+ partner colleges, 95% admission success.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://picsum.photos/seed/prl-og/1200/630">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230B8F4D'/%3E%3Ctext x='50' y='68' font-size='58' font-family='Arial' font-weight='bold' fill='white' text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ================= HEADER / NAV ================= -->
+<header class="site-header" id="siteHeader">
+  <nav class="navbar" aria-label="Primary navigation">
+    <a href="#home" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <i class="fa-solid fa-graduation-cap"></i>
+      </span>
+      <span class="brand-text">
+        PRL <em>Educational Consultancy</em>
+      </span>
+    </a>
+
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#home" class="nav-link active-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#courses" class="nav-link">Courses</a></li>
+      <li><a href="#colleges" class="nav-link">Colleges</a></li>
+      <li><a href="#why-choose" class="nav-link">Why Choose Us</a></li>
+      <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+      <li><a href="#faq" class="nav-link">FAQ</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <a href="#lead-form" class="btn btn-primary btn-sm">Apply Now</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="home">
+    <div class="hero-arch" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-copy reveal" data-reveal="up">
+        <p class="eyebrow"><i class="fa-solid fa-star"></i> 15+ Years &middot; 5,000+ Students Guided</p>
+        <h1>Shape Your Future with Expert Admission Guidance</h1>
+        <p class="hero-sub">We help students get admission into top colleges across India — from the first counselling call to the day you walk through the college gate.</p>
+        <div class="hero-actions">
+          <a href="#lead-form" class="btn btn-primary btn-lg">
+            <i class="fa-solid fa-pen-to-square"></i> Apply Now
+          </a>
+          <a href="#lead-form" class="btn btn-outline btn-lg">
+            <i class="fa-solid fa-phone-volume"></i> Free Counselling
+          </a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-item"><strong>5,000+</strong><span>Students Guided</span></div>
+          <div class="trust-item"><strong>300+</strong><span>Partner Colleges</span></div>
+          <div class="trust-item"><strong>95%</strong><span>Admission Success</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" data-reveal="left">
+        <div class="hero-card hero-card-main">
+          <img src="https://picsum.photos/seed/eduguide-hero/560/640" alt="Student receiving admission counselling" loading="eager" width="560" height="640">
+        </div>
+        <div class="hero-card hero-card-float">
+          <i class="fa-solid fa-circle-check"></i>
+          <div>
+            <strong>Admission Confirmed</strong>
+            <span>Priya S. &middot; MBBS 2026</span>
+          </div>
+        </div>
+        <div class="hero-card hero-card-badge">
+          <i class="fa-solid fa-award"></i>
+          <span>Scholarship<br>Assistance</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES / COURSES WE GUIDE ================= -->
+  <section class="section" id="courses">
+    <div class="container">
+      <p class="section-eyebrow reveal">What We Help With</p>
+      <h2 class="section-title reveal">Courses &amp; Services We Guide You Through</h2>
+      <p class="section-lead reveal">From medicine to management, our counsellors know the entrance exams, cut-offs and paperwork for every stream.</p>
+
+      <div class="grid grid-4 services-grid">
+
+        <article class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-stethoscope"></i></div>
+          <h3>MBBS</h3>
+          <p>NEET-based admission guidance for government and private medical colleges.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-tooth"></i></div>
+          <h3>BDS</h3>
+          <p>Dental college placement support with NEET counselling and seat mapping.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-gears"></i></div>
+          <h3>Engineering</h3>
+          <p>B.Tech &amp; B.E admissions across CSE, ECE, Mechanical, Civil and more.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-pills"></i></div>
+          <h3>Pharmacy</h3>
+          <p>B.Pharm and D.Pharm guidance with placement-linked college shortlists.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-user-nurse"></i></div>
+          <h3>Nursing</h3>
+          <p>B.Sc Nursing and GNM admissions in hospital-affiliated institutions.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+          <h3>Law</h3>
+          <p>CLAT-based counselling for BA LLB and LLB programmes at top law schools.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-palette"></i></div>
+          <h3>Arts &amp; Science</h3>
+          <p>BA, B.Sc and B.Com placements with a focus on your long-term career path.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-briefcase"></i></div>
+          <h3>Management</h3>
+          <p>BBA, MBA and PGDM admissions, including entrance exam strategy.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+          <h3>Allied Health Sciences</h3>
+          <p>Physiotherapy, radiology, lab technology and other paramedical courses.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-earth-americas"></i></div>
+          <h3>Study Abroad Guidance</h3>
+          <p>University shortlisting, visa documentation and pre-departure support.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-award"></i></div>
+          <h3>Scholarship Assistance</h3>
+          <p>We match eligible students to merit and need-based scholarship schemes.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-compass"></i></div>
+          <h3>Career Counselling</h3>
+          <p>Aptitude-based stream selection for students still deciding their path.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section section-tint" id="about">
+    <div class="container about-grid">
+      <div class="about-media reveal" data-reveal="right">
+        <img src="https://picsum.photos/seed/eduguide-about/620/560" alt="EduGuide counselling team meeting with a student and parent" loading="lazy" width="620" height="560">
+        <div class="about-media-badge">
+          <strong>15+</strong>
+          <span>Years of Guidance</span>
+        </div>
+      </div>
+
+      <div class="about-copy reveal" data-reveal="left">
+        <p class="section-eyebrow">About EduGuide</p>
+        <h2 class="section-title">Counselling Built Around the Student, Not the Sale</h2>
+        <p>EduGuide Educational Consultancy was founded to close the gap between what students want to become and what the admissions system actually requires. We sit with every family, understand the constraints — marks, budget, location — and map out the honest set of options.</p>
+
+        <div class="about-points">
+          <div class="about-point">
+            <i class="fa-solid fa-bullseye"></i>
+            <div>
+              <h4>Our Mission</h4>
+              <p>Make quality higher education admission simple, transparent and achievable for every student we counsel.</p>
+            </div>
+          </div>
+          <div class="about-point">
+            <i class="fa-solid fa-lightbulb"></i>
+            <div>
+              <h4>Our Vision</h4>
+              <p>To be the most trusted admission partner for Indian families, known for honesty over hard selling.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-mini-stats">
+          <div><strong>15+</strong><span>Years of Experience</span></div>
+          <div><strong>5,000+</strong><span>Student Success Stories</span></div>
+          <div><strong>300+</strong><span>Trusted Colleges</span></div>
+          <div><strong>End-to-End</strong><span>Admission Support</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= WHY CHOOSE US ================= -->
+  <section class="section" id="why-choose">
+    <div class="container">
+      <p class="section-eyebrow reveal">Why Families Trust Us</p>
+      <h2 class="section-title reveal">Why Choose EduGuide</h2>
+      <p class="section-lead reveal">Eight reasons parents and students keep referring us to their friends and relatives.</p>
+
+      <div class="grid grid-4 why-grid">
+        <div class="why-card reveal">
+          <i class="fa-solid fa-user-tie"></i>
+          <h4>Expert Counselling</h4>
+          <p>Counsellors trained on every major entrance exam and admission cycle.</p>
+        </div>
+        <div class="why-card reveal">
+          <i class="fa-solid fa-clipboard-check"></i>
+          <h4>100% Admission Guidance</h4>
+          <p>We stay with you from registration through to your first day on campus.</p>
+        </div>
+        <div class="why-card reveal">
+          <i class="fa-solid fa-hand-holding-dollar"></i>
+          <h4>Affordable Service</h4>
+          <p>Transparent, upfront pricing — no hidden fees at any stage.</p>
+        </div>
+        <div class="why-card reveal">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h4>Scholarship Support</h4>
+          <p>We actively screen every eligible student for scholarship schemes.</p>
+        </div>
+        <div class="why-card reveal">
+          <i class="fa-solid fa-route"></i>
+          <h4>Career Planning</h4>
+          <p>Course recommendations tied to real long-term career outcomes.</p>
+        </div>
+        <div class="why-card reveal">
+          <i class="fa-solid fa-people-group"></i>
+          <h4>Experienced Team</h4>
+          <p>A senior team that has personally handled thousands of admissions.</p>
+        </div>
+        <div class="why-card reveal">
+          <i class="fa-solid fa-heart"></i>
+          <h4>Trusted by Parents</h4>
+          <p>Most of our new families arrive through a parent's referral.</p>
+        </div>
+        <div class="why-card reveal">
+          <i class="fa-solid fa-comments"></i>
+          <h4>Personalised Counselling</h4>
+          <p>Every plan is built around one student, not a generic checklist.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ADMISSION PROCESS ================= -->
+  <section class="section section-dark" id="process">
+    <div class="container">
+      <p class="section-eyebrow reveal">How It Works</p>
+      <h2 class="section-title reveal">Your Admission Journey, Six Steps</h2>
+      <p class="section-lead reveal">The same gate every student walks through — in an order that keeps decisions in the right sequence.</p>
+
+      <ol class="timeline">
+        <li class="timeline-step reveal">
+          <span class="timeline-index">01</span>
+          <div class="timeline-content">
+            <h4>Register</h4>
+            <p>Share your basic details and academic background with us.</p>
+          </div>
+        </li>
+        <li class="timeline-step reveal">
+          <span class="timeline-index">02</span>
+          <div class="timeline-content">
+            <h4>Free Counselling</h4>
+            <p>A one-on-one session to understand goals, budget and eligibility.</p>
+          </div>
+        </li>
+        <li class="timeline-step reveal">
+          <span class="timeline-index">03</span>
+          <div class="timeline-content">
+            <h4>Course Selection</h4>
+            <p>We shortlist streams that match your marks and interests.</p>
+          </div>
+        </li>
+        <li class="timeline-step reveal">
+          <span class="timeline-index">04</span>
+          <div class="timeline-content">
+            <h4>College Selection</h4>
+            <p>Compare partner colleges on fees, location and placement record.</p>
+          </div>
+        </li>
+        <li class="timeline-step reveal">
+          <span class="timeline-index">05</span>
+          <div class="timeline-content">
+            <h4>Documentation</h4>
+            <p>We prepare and verify every certificate the admission office needs.</p>
+          </div>
+        </li>
+        <li class="timeline-step reveal">
+          <span class="timeline-index">06</span>
+          <div class="timeline-content">
+            <h4>Admission Confirmation</h4>
+            <p>Seat confirmation, fee guidance and a smooth handover to college.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ================= TOP COURSES ================= -->
+  <section class="section" id="top-courses">
+    <div class="container">
+      <p class="section-eyebrow reveal">Popular Streams</p>
+      <h2 class="section-title reveal">Top Courses This Admission Season</h2>
+
+      <div class="grid grid-4 course-detail-grid">
+        <div class="course-detail-card reveal">
+          <span class="course-tag-pill">NEET</span>
+          <h4>Medical</h4>
+          <p>5.5 years &middot; MBBS / BDS</p>
+        </div>
+        <div class="course-detail-card reveal">
+          <span class="course-tag-pill">JEE</span>
+          <h4>Engineering</h4>
+          <p>4 years &middot; B.Tech / B.E</p>
+        </div>
+        <div class="course-detail-card reveal">
+          <span class="course-tag-pill">State CET</span>
+          <h4>Pharmacy</h4>
+          <p>4 years &middot; B.Pharm</p>
+        </div>
+        <div class="course-detail-card reveal">
+          <span class="course-tag-pill">Merit</span>
+          <h4>Nursing</h4>
+          <p>4 years &middot; B.Sc Nursing</p>
+        </div>
+        <div class="course-detail-card reveal">
+          <span class="course-tag-pill">CLAT</span>
+          <h4>Law</h4>
+          <p>5 years &middot; BA LLB</p>
+        </div>
+        <div class="course-detail-card reveal">
+          <span class="course-tag-pill">Merit</span>
+          <h4>Arts &amp; Science</h4>
+          <p>3 years &middot; BA / B.Sc / B.Com</p>
+        </div>
+        <div class="course-detail-card reveal">
+          <span class="course-tag-pill">CAT / CMAT</span>
+          <h4>Management</h4>
+          <p>2&ndash;3 years &middot; BBA / MBA</p>
+        </div>
+        <div class="course-detail-card reveal">
+          <span class="course-tag-pill">Merit</span>
+          <h4>Paramedical</h4>
+          <p>2&ndash;4 years &middot; Allied Health</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PARTNER COLLEGES ================= -->
+  <section class="section section-tint" id="colleges">
+    <div class="container">
+      <p class="section-eyebrow reveal">Our Network</p>
+      <h2 class="section-title reveal">300+ Partner Colleges Across India</h2>
+      <p class="section-lead reveal">A sample of the government and private institutions in our admission network.</p>
+    </div>
+
+    <div class="logo-slider reveal" aria-label="Partner college logos">
+      <div class="logo-track" id="logoTrack">
+        <!-- duplicated set for seamless loop, built twice -->
+        <div class="logo-chip"><span>SVMC</span>Sri Venkateswara Medical College</div>
+        <div class="logo-chip"><span>KIT</span>Karpaga Institute of Technology</div>
+        <div class="logo-chip"><span>NLC</span>Anna university (CEG)</div>
+        <div class="logo-chip"><span>DCP</span>Vellore Institute of Technology (VIT)</div>
+        <div class="logo-chip"><span>AIN</span>Amirtha university</div>
+        <div class="logo-chip"><span>GAC</span>SRM university</div>
+        <div class="logo-chip"><span>MSM</span>PSG Institute of Technology</div>
+        <div class="logo-chip"><span>SVMC</span>Sri Venkateswara Medical College</div>
+        <div class="logo-chip"><span>KIT</span>Karpaga Institute of Technology</div>
+        <div class="logo-chip"><span>NLC</span>Anna university (CEG)</div>
+        <div class="logo-chip"><span>DCP</span>Vellore Institute of Technology (VIT)</div>
+        <div class="logo-chip"><span>AIN</span>Amirtha university</div>
+        <div class="logo-chip"><span>GAC</span>SRM university</div>
+        <div class="logo-chip"><span>MSM</span>PSG Institute of Technology</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TESTIMONIALS ================= -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <p class="section-eyebrow reveal">Success Stories</p>
+      <h2 class="section-title reveal">What Students &amp; Parents Say</h2>
+
+      <div class="testimonial-slider reveal">
+        <button class="slider-btn slider-prev" id="testimonialPrev" aria-label="Previous testimonial">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <div class="testimonial-track" id="testimonialTrack">
+          <article class="testimonial-slide">
+            <img src="https://ui-avatars.com/api/?name=Priya+S&background=0B8F4D&color=fff&size=128" alt="" class="testimonial-avatar" loading="lazy">
+            <p class="testimonial-quote">EduGuide walked me through the whole NEET counselling process and helped me land a seat in my preferred state. I never felt lost.</p>
+            <h5>Priya S.</h5>
+            <span>MBBS &middot; Sri Venkateswara Medical College</span>
+          </article>
+          <article class="testimonial-slide">
+            <img src="https://ui-avatars.com/api/?name=Arun+K&background=28A745&color=fff&size=128" alt="" class="testimonial-avatar" loading="lazy">
+            <p class="testimonial-quote">As a parent, I appreciated how transparent the fee and college comparison was. No pressure, just clear options for my son.</p>
+            <h5>Arun K.</h5>
+            <span>Parent &middot; Engineering Student</span>
+          </article>
+          <article class="testimonial-slide">
+            <img src="https://ui-avatars.com/api/?name=Isha+P&background=0B8F4D&color=fff&size=128" alt="" class="testimonial-avatar" loading="lazy">
+            <p class="testimonial-quote">They handled every document for my law admission and even flagged a scholarship I didn't know I qualified for.</p>
+            <h5>Isha P.</h5>
+            <span>BA LLB &middot; National Law College</span>
+          </article>
+          <article class="testimonial-slide">
+            <img src="https://ui-avatars.com/api/?name=Rahul+M&background=28A745&color=fff&size=128" alt="" class="testimonial-avatar" loading="lazy">
+            <p class="testimonial-quote">I was unsure between pharmacy and allied health. The counselling session actually helped me decide, not just sell me a course.</p>
+            <h5>Rahul M.</h5>
+            <span>B.Pharm &middot; Delhi College of Pharmacy</span>
+          </article>
+        </div>
+
+        <button class="slider-btn slider-next" id="testimonialNext" aria-label="Next testimonial">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+        <div class="slider-dots" id="testimonialDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= STATISTICS ================= -->
+  <section class="section stats-section" id="stats">
+    <div class="container">
+      <div class="grid grid-4 stats-grid">
+        <div class="stat-box reveal">
+          <span class="stat-number" data-target="5000">0</span><span class="stat-plus">+</span>
+          <p>Students Guided</p>
+        </div>
+        <div class="stat-box reveal">
+          <span class="stat-number" data-target="300">0</span><span class="stat-plus">+</span>
+          <p>Partner Colleges</p>
+        </div>
+        <div class="stat-box reveal">
+          <span class="stat-number" data-target="95">0</span><span class="stat-plus">%</span>
+          <p>Admission Success</p>
+        </div>
+        <div class="stat-box reveal">
+          <span class="stat-number" data-target="15">0</span><span class="stat-plus">+</span>
+          <p>Years Experience</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= GALLERY ================= -->
+  <section class="section section-tint" id="gallery">
+    <div class="container">
+      <p class="section-eyebrow reveal">Moments</p>
+      <h2 class="section-title reveal">Inside EduGuide</h2>
+
+      <div class="gallery-grid">
+        <div class="gallery-item reveal"><img src="https://picsum.photos/seed/eduguide-g1/500/500" alt="Counselling session with a student" loading="lazy" width="500" height="500"></div>
+        <div class="gallery-item reveal"><img src="https://picsum.photos/seed/eduguide-g2/500/650" alt="Parent and student reviewing college options" loading="lazy" width="500" height="650"></div>
+        <div class="gallery-item reveal"><img src="https://picsum.photos/seed/eduguide-g3/500/500" alt="Group orientation session" loading="lazy" width="500" height="500"></div>
+        <div class="gallery-item reveal"><img src="https://picsum.photos/seed/eduguide-g4/500/650" alt="Documentation support desk" loading="lazy" width="500" height="650"></div>
+        <div class="gallery-item reveal"><img src="https://picsum.photos/seed/eduguide-g5/500/500" alt="Campus visit with students" loading="lazy" width="500" height="500"></div>
+        <div class="gallery-item reveal"><img src="https://picsum.photos/seed/eduguide-g6/500/650" alt="Scholarship award ceremony" loading="lazy" width="500" height="650"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="section" id="faq">
+    <div class="container faq-container">
+      <p class="section-eyebrow reveal">Common Questions</p>
+      <h2 class="section-title reveal">Frequently Asked Questions</h2>
+
+      <div class="faq-list">
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is the first counselling session really free?</span>
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. Your first session with an EduGuide counsellor is completely free, with no obligation to continue.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>Which entrance exams do you cover?</span>
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>We guide students through NEET, JEE, CLAT, CAT/CMAT, state CETs and most other major entrance exams.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do you only work with private colleges?</span>
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>No. Our 300+ college network includes both government and private institutions across India.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can you help with scholarships?</span>
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. We screen every student against merit and need-based scholarship schemes they may qualify for.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>How long does the admission process take?</span>
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>It varies by course and exam cycle, but most students move from registration to confirmed admission within 4&ndash;8 weeks.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do you help with hostel and accommodation?</span>
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, our counsellors can guide you toward verified hostel and accommodation options near partner colleges.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is there a fee for your consultancy services?</span>
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Counselling is free. Any service fee is discussed transparently upfront, before you commit to anything.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can parents join the counselling session?</span>
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>We actively encourage it. Most families make this decision together, and we welcome parents in every session.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= LEAD FORM ================= -->
+  <section class="section section-dark" id="lead-form">
+    <div class="container form-container">
+      <div class="form-intro reveal">
+        <p class="section-eyebrow">Start Today</p>
+        <h2 class="section-title">Get Free Admission Counselling</h2>
+        <p class="section-lead">Fill this form and a counsellor will call you within 24 hours. No cost, no obligation.</p>
+        <ul class="form-benefits">
+          <li><i class="fa-solid fa-circle-check"></i> Free personalised counselling</li>
+          <li><i class="fa-solid fa-circle-check"></i> Access to 300+ partner colleges</li>
+          <li><i class="fa-solid fa-circle-check"></i> Scholarship &amp; loan guidance</li>
+        </ul>
+      </div>
+
+      <form class="lead-form reveal" id="leadForm" novalidate>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="studentName">Student Name *</label>
+            <input type="text" id="studentName" name="studentName" required>
+            <span class="field-error"></span>
+          </div>
+          <div class="form-field">
+            <label for="parentName">Parent Name</label>
+            <input type="text" id="parentName" name="parentName">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="mobileNumber">Mobile Number *</label>
+            <input type="tel" id="mobileNumber" name="mobileNumber" required placeholder="10-digit mobile number">
+            <span class="field-error"></span>
+          </div>
+          <div class="form-field">
+            <label for="whatsappNumber">WhatsApp Number</label>
+            <input type="tel" id="whatsappNumber" name="whatsappNumber" placeholder="Same as mobile?">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+            <span class="field-error"></span>
+          </div>
+          <div class="form-field">
+            <label for="city">City</label>
+            <input type="text" id="city" name="city">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="state">State</label>
+            <input type="text" id="state" name="state">
+          </div>
+          <div class="form-field">
+            <label for="courseInterested">Course Interested *</label>
+            <select id="courseInterested" name="courseInterested" required>
+              <option value="">Select a course</option>
+              <option>MBBS</option>
+              <option>BDS</option>
+              <option>Engineering</option>
+              <option>Pharmacy</option>
+              <option>Nursing</option>
+              <option>Law</option>
+              <option>Arts &amp; Science</option>
+              <option>Management</option>
+              <option>Allied Health Sciences</option>
+              <option>Other</option>
+            </select>
+            <span class="field-error"></span>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field form-field-full">
+            <label for="preferredCollege">Preferred College</label>
+            <input type="text" id="preferredCollege" name="preferredCollege" placeholder="Optional">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field form-field-full">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="3" placeholder="Tell us a bit about what you're looking for..."></textarea>
+          </div>
+        </div>
+
+        <div class="form-consent">
+          <input type="checkbox" id="consent" name="consent" required>
+          <label for="consent">I agree to be contacted by EduGuide via call, SMS or WhatsApp regarding admission guidance. *</label>
+        </div>
+        <span class="field-error" id="consentError"></span>
+
+        <button type="submit" class="btn btn-primary btn-lg btn-block">
+          <i class="fa-solid fa-paper-plane"></i> Submit Enquiry
+        </button>
+        <p class="form-note"><i class="fa-solid fa-lock"></i> Your information is 100% confidential.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section" id="contact">
+    <div class="container">
+      <p class="section-eyebrow reveal">Get in Touch</p>
+      <h2 class="section-title reveal">Visit or Contact Our Office</h2>
+
+      <div class="contact-grid">
+        <div class="contact-details reveal">
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <h4>Address</h4>
+              <p>45, Anna Salai, Chennai, Tamil Nadu &ndash; 600002, India</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fa-brands fa-whatsapp"></i>
+            <div>
+              <h4>WhatsApp</h4>
+              <p><a href="https://wa.me/919876543210" target="_blank" rel="noopener">+91 98765 43210</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:info@eduguideconsultancy.in">info@eduguideconsultancy.in</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-clock"></i>
+            <div>
+              <h4>Business Hours</h4>
+              <p>Mon&ndash;Sat: 10:00 AM &ndash; 6:00 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-map reveal">
+          <iframe
+            title="EduGuide office location"
+            src="https://www.google.com/maps?q=Anna+Salai+Chennai+Tamil+Nadu&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="brand brand-footer">
+        <span class="brand-mark" aria-hidden="true"><i class="fa-solid fa-graduation-cap"></i></span>
+        <span class="brand-text">EduGuide <em>Educational Consultancy</em></span>
+      </a>
+      <p>Your gateway to a bright future — honest admission guidance for MBBS, Engineering, Law, Management and every major stream.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h5>Quick Links</h5>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#why-choose">Why Choose Us</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>Courses</h5>
+      <ul>
+        <li><a href="#courses">MBBS</a></li>
+        <li><a href="#courses">Engineering</a></li>
+        <li><a href="#courses">Pharmacy</a></li>
+        <li><a href="#courses">Nursing</a></li>
+        <li><a href="#courses">Law</a></li>
+        <li><a href="#courses">Management</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>Useful Links</h5>
+      <ul>
+        <li><a href="#lead-form">Apply Now</a></li>
+        <li><a href="#colleges">Partner Colleges</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms &amp; Conditions</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> EduGuide Educational Consultancy. All rights reserved.</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<a href="https://wa.me/919876543210?text=Hi%2C%20I%27d%20like%20free%20admission%20counselling" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
